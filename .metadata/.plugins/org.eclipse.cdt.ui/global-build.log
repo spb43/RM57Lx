@@ -1,0 +1,116 @@
+
+**** Build of configuration Debug for project PWM_Basic ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../source/HL_epc.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_epc.pp" --obj_directory="source"  "../source/HL_epc.c"
+'Finished building: ../source/HL_epc.c'
+' '
+'Building file: ../source/HL_errata.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_errata.pp" --obj_directory="source"  "../source/HL_errata.c"
+'Finished building: ../source/HL_errata.c'
+' '
+'Building file: ../source/HL_esm.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_esm.pp" --obj_directory="source"  "../source/HL_esm.c"
+'Finished building: ../source/HL_esm.c'
+' '
+'Building file: ../source/HL_het.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_het.pp" --obj_directory="source"  "../source/HL_het.c"
+'Finished building: ../source/HL_het.c'
+' '
+'Building file: ../source/HL_nmpu.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_nmpu.pp" --obj_directory="source"  "../source/HL_nmpu.c"
+'Finished building: ../source/HL_nmpu.c'
+' '
+'Building file: ../source/HL_notification.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_notification.pp" --obj_directory="source"  "../source/HL_notification.c"
+'Finished building: ../source/HL_notification.c'
+' '
+'Building file: ../source/HL_pinmux.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_pinmux.pp" --obj_directory="source"  "../source/HL_pinmux.c"
+'Finished building: ../source/HL_pinmux.c'
+' '
+'Building file: ../source/HL_sys_core.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_core.pp" --obj_directory="source"  "../source/HL_sys_core.asm"
+'Finished building: ../source/HL_sys_core.asm'
+' '
+'Building file: ../source/HL_sys_dma.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_dma.pp" --obj_directory="source"  "../source/HL_sys_dma.c"
+'Finished building: ../source/HL_sys_dma.c'
+' '
+'Building file: ../source/HL_sys_intvecs.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_intvecs.pp" --obj_directory="source"  "../source/HL_sys_intvecs.asm"
+'Finished building: ../source/HL_sys_intvecs.asm'
+' '
+'Building file: ../source/HL_sys_main.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_main.pp" --obj_directory="source"  "../source/HL_sys_main.c"
+"../source/HL_sys_main.c", line 74: warning #112-D: statement is unreachable
+"../source/HL_sys_main.c", line 77: warning #112-D: statement is unreachable
+'Finished building: ../source/HL_sys_main.c'
+' '
+'Building file: ../source/HL_sys_mpu.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_mpu.pp" --obj_directory="source"  "../source/HL_sys_mpu.asm"
+'Finished building: ../source/HL_sys_mpu.asm'
+' '
+'Building file: ../source/HL_sys_pcr.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_pcr.pp" --obj_directory="source"  "../source/HL_sys_pcr.c"
+'Finished building: ../source/HL_sys_pcr.c'
+' '
+'Building file: ../source/HL_sys_phantom.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_phantom.pp" --obj_directory="source"  "../source/HL_sys_phantom.c"
+'Finished building: ../source/HL_sys_phantom.c'
+' '
+'Building file: ../source/HL_sys_pmm.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_pmm.pp" --obj_directory="source"  "../source/HL_sys_pmm.c"
+'Finished building: ../source/HL_sys_pmm.c'
+' '
+'Building file: ../source/HL_sys_pmu.asm'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_pmu.pp" --obj_directory="source"  "../source/HL_sys_pmu.asm"
+'Finished building: ../source/HL_sys_pmu.asm'
+' '
+'Building file: ../source/HL_sys_startup.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_startup.pp" --obj_directory="source"  "../source/HL_sys_startup.c"
+'Finished building: ../source/HL_sys_startup.c'
+' '
+'Building file: ../source/HL_sys_vim.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_sys_vim.pp" --obj_directory="source"  "../source/HL_sys_vim.c"
+'Finished building: ../source/HL_sys_vim.c'
+' '
+'Building file: ../source/HL_system.c'
+'Invoking: ARM Compiler'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me --include_path="C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --include_path="C:/Projects/RM57Lx/PWM_Basic/include" -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed --preproc_with_compile --preproc_dependency="source/HL_system.pp" --obj_directory="source"  "../source/HL_system.c"
+'Finished building: ../source/HL_system.c'
+' '
+'Building target: PWM_Basic.out'
+'Invoking: ARM Linker'
+"C:/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7R5 --code_state=32 --float_support=VFPv3D16 --abi=eabi -me -g --display_error_number --diag_warning=225 --diag_wrap=off --enum_type=packed -z -m"PWM_Basic.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv6/tools/compiler/arm_5.1.6/lib" -i"C:/ti/ccsv6/tools/compiler/arm_5.1.6/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="PWM_Basic_linkInfo.xml" --rom_model -o "PWM_Basic.out"  "./source/HL_epc.obj" "./source/HL_errata.obj" "./source/HL_esm.obj" "./source/HL_het.obj" "./source/HL_nmpu.obj" "./source/HL_notification.obj" "./source/HL_pinmux.obj" "./source/HL_sys_core.obj" "./source/HL_sys_dma.obj" "./source/HL_sys_intvecs.obj" "./source/HL_sys_main.obj" "./source/HL_sys_mpu.obj" "./source/HL_sys_pcr.obj" "./source/HL_sys_phantom.obj" "./source/HL_sys_pmm.obj" "./source/HL_sys_pmu.obj" "./source/HL_sys_startup.obj" "./source/HL_sys_vim.obj" "./source/HL_system.obj" "../source/HL_sys_link.cmd" -l"libc.a" 
+<Linking>
+'Finished building target: PWM_Basic.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project PWM_Basic ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
