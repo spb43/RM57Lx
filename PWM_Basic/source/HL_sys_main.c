@@ -71,7 +71,6 @@ int main(void)
 	while(1){
 
 	}
-	  return 0;
 /* USER CODE END */
 
     return 0;

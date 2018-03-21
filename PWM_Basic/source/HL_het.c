@@ -815,7 +815,7 @@ static const hetINSTRUCTION_t het1PROGRAM[58U] =
         /* Program */
         0x00058203U,
         /* Control */
-        (0x00008007U | (uint32)((uint32)0U << 22U) | (uint32)((uint32)10U << 8U) | (uint32)((uint32)3U << 3U)),
+        (0x00008007U | (uint32)((uint32)1U << 22U) | (uint32)((uint32)10U << 8U) | (uint32)((uint32)3U << 3U)),
         /* Data */
         75136U,
         /* Reserved */
@@ -1019,7 +1019,7 @@ static const hetINSTRUCTION_t het1PROGRAM[58U] =
         /* Program */
         0x0007020FU,
         /* Control */
-        (0x00020007U | (uint32)((uint32)0U << 22U) | (uint32)((uint32)19U << 8U) | (uint32)((uint32)3U << 3U)),
+        (0x00020007U | (uint32)((uint32)1U << 22U) | (uint32)((uint32)19U << 8U) | (uint32)((uint32)3U << 3U)),
         /* Data */
         75136U,
         /* Reserved */
@@ -1132,6 +1132,7 @@ void hetInit(void)
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
+                 | (uint32) 0x00000400U
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
@@ -1141,8 +1142,7 @@ void hetInit(void)
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
-                 | (uint32) 0x00000000U
-                 | (uint32) 0x00000001U;
+                 | (uint32) 0x00000000U;
 
     /** - Set HET pins open drain enable */
     hetREG1->PDR = (uint32) 0x00000000U
@@ -1262,7 +1262,7 @@ void hetInit(void)
                   | (uint32) 0x00000008U
                   | (uint32) 0x00000004U
                   | (uint32) 0x00000002U
-                  | (uint32) 0x00000001U;
+                  | (uint32) 0x00000000U;
 
     /** - Set HET pins AND share */
     hetREG1->AND = (uint32) 0x00000000U
@@ -1280,7 +1280,7 @@ void hetInit(void)
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
                  | (uint32) 0x00000000U
-                 | (uint32) 0x00000000U;
+                 | (uint32) 0x00000001U;
 
     /** - Set HET pins XOR share */
     hetREG1->XOR = (uint32) 0x00000000U
